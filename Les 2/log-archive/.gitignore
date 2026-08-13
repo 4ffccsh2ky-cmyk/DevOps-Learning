@@ -1,0 +1,31 @@
+# Project gitignore
+# Ignore archive outputs and test data
+
+# Archive directory and compressed files
+/archive/
+*.tar.gz
+
+# Test generated files
+/test-logs/
+
+# System and editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.editorconfig
+
+# Temporary files
+*.tmp
+*.temp
+/temp/
+
+# Logs
+*.log
+
+# IDEs
+.env
+.env.local
+.env.*.local
